@@ -1,0 +1,18 @@
+Cache-Control: max-age=600
+X-Timer: S1508484799.107479,VS0,VE0
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Age: 321
+X-Cache: HIT
+Vary: Accept-Encoding
+X-Github-Request-Id: 7744:1BE55:198D6A:1EAC24:59E7F05F
+Content-Type: text/html; charset=utf-8
+X-Served-By: cache-nrt6122-NRT
+X-Cache-Hits: 1
+Date: Fri, 20 Oct 2017 07:33:19 GMT
+Content-Encoding: gzip
+Expires: Thu, 19 Oct 2017 00:32:55 GMT
+X-Fastly-Request-Id: 5800bbc825fdf134528fa63c4f492d89c1c38aec
+Via: 1.1 varnish
+Server: GitHub.com
+Last-Modified: Tue, 17 Oct 2017 12:05:00 GMT

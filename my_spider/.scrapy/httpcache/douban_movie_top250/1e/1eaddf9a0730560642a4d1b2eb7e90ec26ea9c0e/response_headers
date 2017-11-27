@@ -1,0 +1,13 @@
+Cache-Control: must-revalidate, no-cache, private
+X-Xss-Protection: 1; mode=block
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Pragma: no-cache
+Date: Mon, 23 Oct 2017 07:35:21 GMT
+Content-Type: text/html; charset=utf-8
+X-Content-Type-Options: nosniff
+X-Dae-App: movie
+Server: dae
+X-Douban-Mobileapp: 0
+Expires: Sun, 1 Jan 2006 01:00:00 GMT
+X-Dae-Node: sindar8a
