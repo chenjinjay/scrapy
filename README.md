@@ -9,7 +9,7 @@ https://github.com/lawlite19/PythonCrawler-Scrapy-Mysql-File-Template/blob/maste
 http://blog.csdn.net/u013082989/article/details/52589791
 
 四、解决spider爬取数据正常，但是插入mysql时发生数据重复（前面或者后面的数据被覆盖）
-下面来自cdsn的评论，源链接如下：http://bbs.csdn.net/topics/391847368   用户：qq_33245827 的评论：
+下面来自csdn的评论，源链接如下：http://bbs.csdn.net/topics/391847368   用户：qq_33245827 的评论：
 
 其原因是由于Spider的速率比较快，而scapy操作数据库操作比较慢，导致pipeline中的方法调用较慢，这样当一个变量正在处理的时候，一个新的变量过来，之前的变量的值就会被覆盖，比如pipline的速率是1TPS，而spider的速率是5TPS，那么数据库应该会有5条重复数据。
 
