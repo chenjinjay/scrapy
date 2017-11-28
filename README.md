@@ -19,9 +19,6 @@ http://blog.csdn.net/u013082989/article/details/52589791
      
     #pipeline默认调用
     def process_item(self, item, spider):
-        
-        #深拷贝        
-        
-        asynItem = copy.deepcopy(item)
-        
+        #深拷贝      
+        asynItem = copy.deepcopy(item)      
         d = self.dbpool.runInteraction(self._do_upinsert, asynItem, spider)
