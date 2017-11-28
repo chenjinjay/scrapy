@@ -7,6 +7,7 @@
 https://github.com/lawlite19/PythonCrawler-Scrapy-Mysql-File-Template/blob/master/webCrawler_scrapy/pipelines.py  为了不让数据插入库后有重复的现在，比源码增加了 import copy的一步，具体看本项目里面的pipelines.py
 (2)教程参考：
 http://blog.csdn.net/u013082989/article/details/52589791
+
 四、解决spider爬取数据正常，但是插入mysql时发生数据重复（前面或者后面的数据被覆盖）
 下面来自cdsn的评论，源链接如下：http://bbs.csdn.net/topics/391847368   用户：qq_33245827 的评论：
 
