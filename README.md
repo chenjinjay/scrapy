@@ -5,7 +5,7 @@
 三、2017-11-27增加了将数据插入到数据库的模块pipline.py
 
 (1)源码参考：
-https://github.com/lawlite19/PythonCrawler-Scrapy-Mysql-File-Template/blob/master/webCrawler_scrapy/pipelines.py  为了不让数据插入库后有重复的现在，比源码增加了 import copy的一步，具体看本项目里面的pipelines.py
+https://github.com/lawlite19/PythonCrawler-Scrapy-Mysql-File-Template/blob/master/webCrawler_scrapy/pipelines.py  为了不让数据插入库后出现重复，覆盖的现象，比源码增加了 import copy的一步，具体看本项目里面的pipelines.py
 
 (2)教程参考：
 http://blog.csdn.net/u013082989/article/details/52589791
