@@ -22,6 +22,7 @@ http://blog.csdn.net/u013082989/article/details/52589791
 
 解决方案是对变量进行保存，在保存的变量进行操作，通过互斥确保变量不被修改：深拷贝，拷贝后的变量不受正在进行的spider影响
      
+     
     #pipeline默认调用
     def process_item(self, item, spider):
         #深拷贝      
